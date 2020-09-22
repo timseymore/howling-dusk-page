@@ -1,0 +1,123 @@
+:root {
+    --backdrop: rgb(225, 225, 225);
+    --text-color: rgb(50, 50, 50);
+    --border-color: rgb(170, 170, 170);
+}
+
+body {
+    margin: 0px;
+    font-size: 10px;
+    color: var(--text-color);
+    background: var(--backdrop);
+    font-family: "Open Sans", Arial, sans-serif;
+    line-height: 1.5;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 300px;
+    height: 100vh;
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    font-size: 1rem;
+    border-style: solid;
+    border-color: var(--border-color);
+}
+
+header {
+}
+
+section {
+}
+
+code {
+}
+
+ul {
+}
+
+li {
+}
+
+p {
+}
+
+.nav-box {
+    text-align: center;
+    border-style: solid;
+    border-width: 1px;
+    border-color: var(--border-color);
+}
+
+.nav-link {
+    display: block;
+    text-decoration: none;
+    padding: 0.5em 1em;
+    color: var(--text-color);
+}
+
+.wrapper {
+    display: flex;
+    font-size: 1rem;
+}
+
+.spacer {
+    width: 750px;
+    height: 100vh;
+    max-width: 100%;
+}
+
+.doc-box {
+    display: block;
+}
+
+.main-section {
+    font-size: 0.9rem;
+    font-weight: 400;
+    margin: 15px;
+    margin-bottom: 50px;
+}
+
+.main-section > p {
+}
+
+.main-section > header {
+    font-size: 1.5rem;
+    font-weight: 525;
+}
+
+#title-box {
+    height: 50px;
+    font-size: 1.5rem;
+    font-weight: 525;
+    padding: 0.5em 1em;
+}
+
+#download-link {
+    text-decoration: none;
+    color: blue;
+}
+
+#download-link:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 650px) {
+    nav {
+        position: absolute;
+        width: 100vw;
+        height: 325px;
+        background-color: var(--backdrop);
+    }
+
+    .spacer {
+        width: 100vw;
+        height: 325px;
+    }
+    .wrapper {
+        flex-direction: column;
+    }
+}
