@@ -27,7 +27,8 @@ nav {
     border-color: var(--border-color);
 }
 
-header {
+footer {
+    text-align: center;
 }
 
 section {
