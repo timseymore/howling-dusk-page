@@ -1,6 +1,6 @@
 :root {
-    --backdrop: rgb(225, 225, 225);
-    --text-color: rgb(50, 50, 50);
+    --backdrop: rgb(53, 46, 46);
+    --text-color: rgb(201, 201, 201);
     --border-color: rgb(170, 170, 170);
 }
 
@@ -98,7 +98,7 @@ p {
 
 #download-link {
     text-decoration: none;
-    color: blue;
+    color: rgb(197, 0, 0);
 }
 
 #download-link:hover {
