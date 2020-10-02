@@ -31,21 +31,6 @@ footer {
     text-align: center;
 }
 
-section {
-}
-
-code {
-}
-
-ul {
-}
-
-li {
-}
-
-p {
-}
-
 .nav-box {
     text-align: center;
     border-style: solid;
@@ -80,9 +65,6 @@ p {
     font-weight: 400;
     margin: 15px;
     margin-bottom: 50px;
-}
-
-.main-section > p {
 }
 
 .main-section > header {
@@ -125,11 +107,6 @@ table, th, td {
     .wrapper {
         flex-direction: column;
     }
-
-
-
-
-
 
     footer {
         text-align: center;
