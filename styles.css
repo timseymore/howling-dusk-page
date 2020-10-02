@@ -81,15 +81,22 @@ footer {
 
 #download-link {
     text-decoration: none;
-    color: rgb(197, 0, 0);
+    color: rgb(106, 106, 206);
 }
 
 #download-link:hover {
-    text-decoration: underline;
+    color: var(--text-color);
 }
 
 table, th, td {
-    border: 1px solid rgb(133, 128, 128);
+    border: 1px solid black;
+    background-color: gainsboro;
+    color: #000;
+}
+
+th {
+    background-color:  rgb(22, 22, 124);
+    color: whitesmoke;
 }
 
 @media (max-width: 845px) {
