@@ -93,6 +93,7 @@ table, th, td {
 }
 
 @media (max-width: 650px) {
+
     nav {
         position: absolute;
         width: 100vw;
@@ -111,4 +112,10 @@ table, th, td {
     footer {
         text-align: center;
     }
+}
+
+/* Improvements */
+
+.spacer {
+    width: 75vw;
 }
