@@ -1,5 +1,5 @@
 :root {
-    --backdrop: rgb(53, 46, 46);
+    --backdrop: rgb(58, 56, 56);
     --text-color: rgb(201, 201, 201);
     --border-color: rgb(170, 170, 170);
 }
@@ -17,7 +17,7 @@ nav {
     position: fixed;
     top: 0;
     left: 0;
-    width: 300px;
+    width: 20vw;
     height: 100vh;
     max-width: 100%;
     display: flex;
@@ -51,7 +51,7 @@ footer {
 }
 
 .spacer {
-    width: 750px;
+    width: 75vw;
     height: 100vh;
     max-width: 100%;
 }
@@ -92,7 +92,7 @@ table, th, td {
     border: 1px solid rgb(133, 128, 128);
 }
 
-@media (max-width: 650px) {
+@media (max-width: 845px) {
 
     nav {
         position: absolute;
@@ -112,10 +112,4 @@ table, th, td {
     footer {
         text-align: center;
     }
-}
-
-/* Improvements */
-
-.spacer {
-    width: 75vw;
 }
