@@ -65,6 +65,7 @@ footer {
     font-weight: 400;
     margin: 15px;
     margin-bottom: 50px;
+    padding: 1em;
 }
 
 .main-section > header {
@@ -99,7 +100,7 @@ th {
     color: whitesmoke;
 }
 
-@media (max-width: 845px) {
+@media (max-width: 850px) {
 
     nav {
         position: absolute;
