@@ -106,6 +106,10 @@ p {
     text-decoration: underline;
 }
 
+table, th, td {
+    border: 1px solid rgb(133, 128, 128);
+}
+
 @media (max-width: 650px) {
     nav {
         position: absolute;
@@ -121,6 +125,11 @@ p {
     .wrapper {
         flex-direction: column;
     }
+
+
+
+
+
 
     footer {
         text-align: center;
