@@ -121,3 +121,16 @@ th {
         text-align: center;
     }
 }
+
+/* improvements */
+.main-section {
+    margin: 1em;
+    margin-bottom: 1.5em;
+    padding: 1.2em;
+    line-height: 1.6em;
+}
+
+.main-section > header {
+    padding-bottom: .8em;
+}
+
