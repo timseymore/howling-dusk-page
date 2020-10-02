@@ -126,6 +126,7 @@ th {
 .main-section {
     margin: 1em;
     margin-bottom: 1.5em;
+
     padding: 1.2em;
     line-height: 1.6em;
 }
@@ -134,3 +135,12 @@ th {
     padding-bottom: .8em;
 }
 
+.wrapper {
+    margin-left: 5em;
+}
+
+@media (max-width: 850px) {
+    .wrapper {
+        margin: auto;
+    }
+}
