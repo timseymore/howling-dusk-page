@@ -1,138 +1,140 @@
-<!DOCTYPE html>
+<!DOCTYPE html lang="en">
 <html>
 
-<head>
-    <title>Howling Dusk Info Page</title>
-    <meta name="viewport" content="width=device-width, height=device-height, intial-scale=1, max-scale=1">
-    <link rel="stylesheet" href="styles.css">
-</head>
+    <head>
+        <title>Howling Dusk Info Page</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, 
+            initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="stylesheet" href="styles.css">
+    </head>
 
-<body>
+    <body>
 
-    <nav id="navbar">
+        <nav id="navbar">
 
-        <div class="nav-box" id="title-box">
-            <header>Howling Dusk</header>
-        </div>
-
-        <div class="nav-box">
-            <a href="#Introduction" class="nav-link">Introduction</a>
-        </div>
-
-        <div class="nav-box">
-            <a href="#Story-Bible" class="nav-link">Story Bible</a>
-        </div>
-
-        <div class="nav-box">
-            <a href="#Player-Controls" class="nav-link">Player Controls</a>
-        </div>        
-
-    </nav>
-
-    <main id="main-doc">
-        <div class="wrapper">
-
-            <div class="spacer"></div>
-
-            <div class="doc-box">
-                <section id="Introduction" class="main-section">
-                    <header>Introduction</header>
-                    <p>Howling Dusk is a single-player first-person survival game set in a large open-world island wilderness environment
-                         where the player must maintain vitals such as hunger and thirst while avoiding attacks by predators, extreme weather, and disease.
-                          It will blend emotional experiences from a peaceful almost meditative natural setting to moments of suspense and fear.
-                           The game is targeted at teen to mature, casual or hardcore survival game players on a PC platform.  </p>
-                    <p>The player starts the game in one of two possible scenarios. There will be a shipwreck survivor and a plane crash survivor scenario
-                         for the player to choose from. The shipwreck will start the player on the beach with plenty of distance before encountering any predators.
-                          The plane crash will start deeper in the island near a mountain, much closer to threats of extreme conditions and predators.
-                          This will give the player an extra option for difficulty and added replay value.</p>
-                    <p>The wildlife will be huntable for meat and hide, amount being relative to animal size.
-                         The animals found in the game will be frogs, snakes, rabbits, wild boar, deer, wolves, and bears.
-                          The predators are the snakes, wolves, and bears. The main threat being packs of wolves stalking the player at night.
-                           Best build a good defense at camp. However, a buck or wild boar may defend itself if attacked as well.
-                             The meat can be cooked for food or eaten raw if you want to risk food poisoning. There will also be wild berries to be picked,
-                              but not all species are as safe to eat as others. Water can be found in lakes and streams, though boiling it before drinking
-                               would avoid dysentery. The hide found from animals can be crafted into clothing. Plant fibers, rocks, and sticks can be harvested
-                                from the environment.
-                         These will be the basic items needed to make buildable items in the game.</p>
-                    <p>The player will start with a basic tutorial mission line to get started.  The final mission will be for the player to find a cabin located
-                         near the center of the island, the most dangerous area, that will contain an old flare gun which may be used to signal for help.
-                           The game will end with the player being saved.
-                          The player may choose to ignore this and play their game and build indefinitely with respawning resources. </p>
-                </section>
-
-                <section id="Story-Bible" class="main-section">
-                    <header>Story Bible</header>
-                    <p>The Story Bible for Howling Dusk can be found <a id="download-link" href="Howling Dusk Story Bible.pdf" target="_blank">here</a>.</p>                   
-                </section>
-
-                <section id="Player-Controls" class="main-section">
-                    <header>Player Controls</header>
-                    <p><table id="controls-table" style="width:100%">
-                        <tr>
-                            <th>Key</th>
-                            <th>Land State</th>
-                            <th>Water State</th>
-                        </tr>
-                        <tr>
-                            <td>Arrow Keys (W,A,S,D)</td>
-                            <td>Walk</td>
-                            <td>Swim</td>
-                        </tr>
-                        <tr>
-                            <td>Space Bar</td>
-                            <td>Jump</td>
-                            <td>Kick to surface</td>
-                        </tr>
-                        <tr>
-                            <td>Hold Left Shift</td>
-                            <td>Sprint</td>
-                            <td>Swim Faster</td>
-                        </tr> 
-                        <tr>
-                            <td>C</td>
-                            <td>Toggle crouch</td>
-                            <td></td>
-                        </tr> 
-                        <tr>                    
-                            <td>E</td>
-                            <td>Interact</td>
-                            <td>Interact</td>
-                        </tr>
-                        <tr>
-                            <td>Tab</td>
-                            <td>Toggle Player Menu</td>
-                            <td>Toggle Player Menu</td>
-                        </tr>
-                        <tr>
-                            <td>Number Keys 1-5</td>
-                            <td>Equip toolbelt item number 1-5</td>
-                            <td>Equip toolbelt item number 1-5</td>
-                        </tr>           
-                        <tr>
-                            <td>Mouse Movement</td>
-                            <td>Look around</td>
-                            <td>Look around</td>
-                        </tr>                     
-                        <tr>
-                            <td>Right Mouse Button</td>
-                            <td>Use equipped item</td>
-                            <td>Use equipped item</td>
-                        </tr>                                       
-                    </table></p>                                                           
-                </section>
-
-                <footer>  
-                    <img id="sit-logo" src="Images/SITLogo.png" alt="SiT">                                     
-                    <p>&copy; Copyright 2020 Seymore Interactive Technologies</p>
-                </footer>
-
+            <div class="nav-box" id="title-box">
+                <header id="title-text">Howling Dusk</header>
             </div>
-            <!-- Doc box -->
 
-        </div>
-        <!-- Wrapper -->
-    </main>
+            <div class="nav-box" id="intro-link-box">
+                <a href="#Introduction" class="nav-link" id="intro-link">Introduction</a>
+            </div>
 
-</body>
+            <div class="nav-box" id="story-link-box">
+                <a href="#Story-Bible" class="nav-link" id="story-link">Story Bible</a>
+            </div>
+
+            <div class="nav-box" id="controls-link-box">
+                <a href="#Player-Controls" class="nav-link" id="controls-link">Player Controls</a>
+            </div>        
+
+        </nav>
+
+        <main id="main-doc">
+            <div class="wrapper">
+
+                <div class="spacer"></div>
+
+                <div class="doc-box">
+                    <section id="Introduction" class="main-section">
+                        <header>Introduction</header>
+                        <p>Howling Dusk is a single-player first-person survival game set in a large open-world island wilderness environment
+                            where the player must maintain vitals such as hunger and thirst while avoiding attacks by predators, extreme weather, and disease.
+                            It will blend emotional experiences from a peaceful almost meditative natural setting to moments of suspense and fear.
+                            The game is targeted at teen to mature, casual or hardcore survival game players on a PC platform.  </p>
+                        <p>The player starts the game in one of two possible scenarios. There will be a shipwreck survivor and a plane crash survivor scenario
+                            for the player to choose from. The shipwreck will start the player on the beach with plenty of distance before encountering any predators.
+                            The plane crash will start deeper in the island near a mountain, much closer to threats of extreme conditions and predators.
+                            This will give the player an extra option for difficulty and added replay value.</p>
+                        <p>The wildlife will be huntable for meat and hide, amount being relative to animal size.
+                            The animals found in the game will be frogs, snakes, rabbits, wild boar, deer, wolves, and bears.
+                            The predators are the snakes, wolves, and bears. The main threat being packs of wolves stalking the player at night.
+                            Best build a good defense at camp. However, a buck or wild boar may defend itself if attacked as well.
+                                The meat can be cooked for food or eaten raw if you want to risk food poisoning. There will also be wild berries to be picked,
+                                but not all species are as safe to eat as others. Water can be found in lakes and streams, though boiling it before drinking
+                                would avoid dysentery. The hide found from animals can be crafted into clothing. Plant fibers, rocks, and sticks can be harvested
+                                    from the environment.
+                            These will be the basic items needed to make buildable items in the game.</p>
+                        <p>The player will start with a basic tutorial mission line to get started.  The final mission will be for the player to find a cabin located
+                            near the center of the island, the most dangerous area, that will contain an old flare gun which may be used to signal for help.
+                            The game will end with the player being saved.
+                            The player may choose to ignore this and play their game and build indefinitely with respawning resources. </p>
+                    </section>
+
+                    <section id="Story-Bible" class="main-section">
+                        <header>Story Bible</header>
+                        <p>The Story Bible for Howling Dusk can be found <a id="download-link" href="Howling Dusk Story Bible.pdf" target="_blank">here</a>.</p>                   
+                    </section>
+
+                    <section id="Player-Controls" class="main-section">
+                        <header>Player Controls</header>
+                        <p><table id="controls-table" style="width:100%">
+                            <tr>
+                                <th>Key</th>
+                                <th>Land State</th>
+                                <th>Water State</th>
+                            </tr>
+                            <tr>
+                                <td>Arrow Keys (W,A,S,D)</td>
+                                <td>Walk</td>
+                                <td>Swim</td>
+                            </tr>
+                            <tr>
+                                <td>Space Bar</td>
+                                <td>Jump</td>
+                                <td>Kick to surface</td>
+                            </tr>
+                            <tr>
+                                <td>Hold Left Shift</td>
+                                <td>Sprint</td>
+                                <td>Swim Faster</td>
+                            </tr> 
+                            <tr>
+                                <td>C</td>
+                                <td>Toggle crouch</td>
+                                <td></td>
+                            </tr> 
+                            <tr>                    
+                                <td>E</td>
+                                <td>Interact</td>
+                                <td>Interact</td>
+                            </tr>
+                            <tr>
+                                <td>Tab</td>
+                                <td>Toggle Player Menu</td>
+                                <td>Toggle Player Menu</td>
+                            </tr>
+                            <tr>
+                                <td>Number Keys 1-5</td>
+                                <td>Equip toolbelt item number 1-5</td>
+                                <td>Equip toolbelt item number 1-5</td>
+                            </tr>           
+                            <tr>
+                                <td>Mouse Movement</td>
+                                <td>Look around</td>
+                                <td>Look around</td>
+                            </tr>                     
+                            <tr>
+                                <td>Right Mouse Button</td>
+                                <td>Use equipped item</td>
+                                <td>Use equipped item</td>
+                            </tr>                                       
+                        </table></p>                                                           
+                    </section>
+
+                    <footer>  
+                        <img id="sit-logo" src="Images/SITLogo.png" alt="SiT">                                     
+                        <p>&copy; Copyright 2020 Seymore Interactive Technologies</p>
+                    </footer>
+
+                </div>
+                <!-- Doc box -->
+            </div>
+            <!-- Wrapper -->
+        </main>
+
+    </body>
 
 </html>
