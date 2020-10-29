@@ -48,6 +48,7 @@ footer {
 .wrapper {
     display: flex;
     font-size: 1rem;
+    margin-left: 5em;
 }
 
 .spacer {
@@ -63,14 +64,16 @@ footer {
 .main-section {
     font-size: 0.9rem;
     font-weight: 400;
-    margin: 15px;
-    margin-bottom: 50px;
-    padding: 1em;
+    margin: 1em;
+    margin-bottom: 1.5em;
+    padding: 1.2em;
+    line-height: 1.6em;
 }
 
 .main-section > header {
     font-size: 1.5rem;
     font-weight: 525;
+    padding-bottom: .8em;
 }
 
 #title-box {
@@ -115,32 +118,10 @@ th {
     }
     .wrapper {
         flex-direction: column;
+        margin: auto;
     }
 
     footer {
         text-align: center;
-    }
-}
-
-/* improvements */
-.main-section {
-    margin: 1em;
-    margin-bottom: 1.5em;
-
-    padding: 1.2em;
-    line-height: 1.6em;
-}
-
-.main-section > header {
-    padding-bottom: .8em;
-}
-
-.wrapper {
-    margin-left: 5em;
-}
-
-@media (max-width: 850px) {
-    .wrapper {
-        margin: auto;
     }
 }
